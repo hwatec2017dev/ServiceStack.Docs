@@ -91,7 +91,7 @@
     <Content Include="css\default.css" />
     <Content Include="css\styles.css" />
     <Content Include="Global.asax" />
-    <Content Include="default.htm" />
+    <None Include="default.md" />
     <Content Include="img\arr-2.gif" />
     <Content Include="img\boat.jpg" />
     <Content Include="img\date.png" />

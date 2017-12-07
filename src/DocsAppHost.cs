@@ -18,7 +18,9 @@ namespace Docs
 
         public override void Configure(Funq.Container container)
         {
-            Plugins.Add(new MarkdownFormat());
+            container.Register(PageManager.Default);
+
+            Plugins.Add(new MarkdownFormat { MarkdownBaseType = typeof(CustomMarkdownPage) });
 
             Routes
                 .Add<Page>("/pages")
