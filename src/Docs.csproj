@@ -118,7 +118,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DocsAppHost.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -130,21 +129,20 @@
   <ItemGroup>
     <None Include="contrib\servicestack-contrib.md" />
     <None Include="examples\servicestack-examples.md" />
-    <None Include="framework\accessing-ihttprequest.md" />
-    <None Include="framework\caching-options.md" />
-    <None Include="framework\history-of-webservices.md" />
-    <None Include="framework\csv-format.md" />
-    <None Include="framework\home.md" />
-    <None Include="framework\json-report-format.md" />
-    <None Include="framework\nuget.md" />
-    <None Include="framework\overview.md" />
-    <None Include="framework\release-notes.md" />
+    <None Include="servicestack\accessing-ihttprequest.md" />
+    <None Include="servicestack\caching-options.md" />
+    <None Include="servicestack\history-of-webservices.md" />
+    <None Include="servicestack\csv-format.md" />
+    <None Include="servicestack\home.md" />
+    <None Include="servicestack\json-report-format.md" />
+    <None Include="servicestack\nuget.md" />
+    <None Include="servicestack\overview.md" />
+    <None Include="servicestack\release-notes.md" />
     <None Include="logging\logging-overview.md" />
-    <None Include="markdown\about.md" />
+    <None Include="about.md" />
     <None Include="markdown\markdown-razor.md" />
     <None Include="markdown\markdown-features.md" />
     <None Include="ormlite\ormlite-overview.md" />
-    <None Include="Pages.json" />
     <None Include="redis-admin-ui\redis-admin-ui-overview.md" />
     <None Include="redis-client\designing-nosql-database.md" />
     <None Include="redis-client\distributed-locking-with-redis.md" />
@@ -160,7 +158,8 @@
     <None Include="redis-client\schemaless-nosql-migrations.md" />
     <None Include="redis-client\useful-redis-links.md" />
     <None Include="text-serializers\json-csv-jsv-serializers.md" />
-    <None Include="text-serializers\jsv-format.md" />
+    <Content Include="text-serializers\json-serializer.md" />
+    <Content Include="text-serializers\override-mvc-jsonresult.md" />
     <None Include="Views\Category.md" />
     <None Include="Views\Search.md" />
   </ItemGroup>

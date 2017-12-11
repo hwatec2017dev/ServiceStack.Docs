@@ -41,5 +41,5 @@ the **Title**, **Category** and document **Date** are also added and displayed i
 
 ### Find out more about Markdown support
 
-  - [Markdown Features](markdown-features) - Benefits and Markdown features in ServiceStack
-  - [Markdown Razor](markdown-razor) - Introduction to the new Markdown View Engine and its Razor syntax in ServiceStack
+  - [Markdown Features](markdown/markdown-features) - Benefits and Markdown features in ServiceStack
+  - [Markdown Razor](markdown/markdown-razor) - Introduction to the new Markdown View Engine and its Razor syntax in ServiceStack

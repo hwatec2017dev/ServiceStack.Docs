@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using ServiceStack;
 using ServiceStack.Markdown;
 
 namespace Docs.Logic
@@ -16,7 +17,7 @@ namespace Docs.Logic
 		{
 			Page page;
 			var pageManager = AppHost.TryResolve<PageManager>();
-			pageManager.PageMap.TryGetValue(MarkdownPage.FilePath, out page);
+			pageManager.PageMap.TryGetValue(MarkdownPage.FilePath.WithoutExtension(), out page);
 
 			object cat;
 			this.ScopeArgs.TryGetValue("Category", out cat);

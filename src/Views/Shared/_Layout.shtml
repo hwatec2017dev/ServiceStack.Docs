@@ -26,7 +26,7 @@
             <!-- Main Navigation -->
             <div id="nav">
                 <ul>
-                    <li class=""><a href="~/markdown/about"><span>About</span></a></li>
+                    <li class=""><a href="~/about"><span>About</span></a></li>
                     <li><a href="?format=html.bare"><span>content only</span></a></li>
                     <li><a href="?format=text.bare"><span>markdown only</span></a></li>
                 </ul>
@@ -39,53 +39,11 @@
         <!-- Main Block -->
         <div id="main">
             <!-- RSS icon -->
-            <a href="#" id="rss-link">RSS</a>
+            <!--<a href="#" id="rss-link">RSS</a>-->
             <div id="main-top">
                 <div id="main-bot">
                     <div class="cl">
                         &nbsp;</div>
-                    <!-- Content -->
-                    <div id="content">
-                        <div class="post-19 post type-post status-publish format-standard hentry category-uncategorized tag-boat tag-lake">
-                            <h2 id="title">
-                                <!--@Title-->
-                            </h2>
-                            <div class="date">
-                                <div class="bg">
-                                    <span class="day"><!--@ModifiedDay--></span>
-                                    <span><!--@ModifiedMonth--></span>
-                                </div>
-                            </div>
-                            <div class="entry">
-                                <div class="content next-content"></div>
-
-                                <div class="content active-content">
-                                <!--@Body-->
-                                </div>
-
-                                <div class="cl">&nbsp;</div>
-                            </div>
-                            <div class="meta">
-                                <div class="bg">
-                                    <span class="comments-num"><span>Comments Off</span></span>
-                                    <p>
-                                        Posted
-                                        <!-- by Theme Admin -->
-                                        in <a href="~/category/<!--@Category-->" title="View all posts in <!--@Category-->"
-                                            rel="category"><!--@Category--></a></p>
-                                </div>
-                                <div class="bot">
-                                    &nbsp;</div>
-                            </div>
-                        </div>
-                        <div class="navigation">
-                            <div class="alignleft">
-                            </div>
-                            <div class="alignright">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- END Content -->
                     <!-- Sidebar -->
                     <div id="sidebar">
                         <ul>
@@ -129,27 +87,67 @@
                                         <a href="http://www.tutorialspoint.com/restful/">REST Tutorial</a>
                                     </li>
                                     <li>
-                                        <a href="https://github.com/ServiceStack/">GitHub</a>
+                                        <a href="https://github.com/binary2015nov/">GitHub</a>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                     <!-- END Sidebar -->
-                    <div class="cl">
-                        &nbsp;</div>
+                    <!-- Content -->
+                    <div id="content">
+                        <div class="post-19 post type-post status-publish format-standard hentry category-uncategorized tag-boat tag-lake">
+                            <h2 id="title">
+                                <!--@Title-->
+                            </h2>
+                            <div class="date">
+                                <div class="bg">
+                                    <span class="day"><!--@ModifiedDay--></span>
+                                    <span><!--@ModifiedMonth--></span>
+                                </div>
+                            </div>
+                            <div class="entry">
+                                <div class="content next-content"></div>
+
+                                <div class="content active-content">
+                                <!--@Body-->
+                                </div>
+
+                                <div class="cl">&nbsp;</div>
+                            </div>
+                            <div class="meta">
+                                <div class="bg">
+                                    <span class="comments-num"><span>Comments Off</span></span>
+                                    <p>
+                                        Posted
+                                        <!-- by Theme Admin -->
+                                        in <a href="~/category/<!--@Category-->" title="View all posts in <!--@Category-->"
+                                            rel="category"><!--@Category--></a></p>
+                                </div>
+                                <div class="bot">
+                                    &nbsp;</div>
+                            </div>
+                        </div>
+                        <div class="navigation">
+                            <div class="alignleft">
+                            </div>
+                            <div class="alignright">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END Content -->
                 </div>
             </div>
         </div>
         <!-- END Main Block -->
         <!-- Footer -->
-        <div id="footer">
+        <!--<div id="footer">
             <p>
                 ChocoTheme by <a href="http://cssmayo.com">.css{mayo}</a> | powered by WordPress</p>
             <p>
                 Copyright © 2011 Liquidbit Ltd. All rights reserved.
             </p>
-        </div>
+        </div>-->
         <!-- END Footer -->
     </div>
     <!-- END Page -->

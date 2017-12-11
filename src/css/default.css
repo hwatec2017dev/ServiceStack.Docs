@@ -80,7 +80,7 @@ h1 a:hover { text-decoration: none; }
 
 #main { background: repeat-y 0 0; width: 100%; position: relative; }
 #main-top { background: no-repeat 0 0; }
-#main-bot { background: no-repeat 0 bottom; height: 100%; padding: 50px 20px 70px 60px; min-height: 150px; }
+#main-bot { background: no-repeat 0 bottom; height: 100%; padding: 50px 20px 70px 60px; min-height: 150px; overflow: hidden; }
 
 #rss-link { display: block; width: 50px; height: 55px; font-size: 0; line-height: 0; text-indent: -4000px; }
 #rss-link { position: absolute; top: -12px; right: -12px; }

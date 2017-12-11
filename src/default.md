@@ -4,13 +4,16 @@ ServiceStack docs is a collection of all documentation found in the README.md an
 
 ### REST and RPC Web Services Framework
 
-  - [ServiceStack Overview](framework/overview)
-  - [Release Notes](framework/release-notes)
-  - [Wiki Home](framework/home)
-  - [NuGet](framework/nuget)
-  - [JSON Report Format](framework/json-report-format)
-  - [Caching Options](framework/caching-options)
-  - [Accessing IHttpRequest](framework/accessing-ihttprequest)
+  - [ServiceStack Overview](servicestack/overview)
+  - [Release Notes](servicestack/release-notes)
+  - [Wiki Home](servicestack/home)
+  - [NuGet](servicestack/nuget)
+  - [JSON Report Format](servicestack/json-report-format)
+  - [The CSV Format](servicestack/csv-format)
+  - [The JSV Format](servicestack/jsv-format)
+  - [Caching Options](servicestack/caching-options)
+  - [Accessing IHttpRequest](servicestack/accessing-ihttprequest)
+  - [History of Webservices](servicestack/history-of-webservices)
 
 ### C# Redis Client
 
@@ -33,10 +36,9 @@ ServiceStack docs is a collection of all documentation found in the README.md an
  - [Redis Admin UI Overview](redis-admin-ui/redis-admin-ui-overview)
 
 ### ServiceStack.Text JSON, CSV and JSV Serializers
-
  - [JSON, CSV, JSV Serializers](text-serializers/json-csv-jsv-serializers)
- - [The JSV Format](text-serializers/jsv-format)
- - [Override MVCs JsonResult](text-serializers/override-mvc-jsonresult)\
+ - [The JSON Serializer](text-serializers/json-serializer)
+ - [Override MVCs JsonResult](text-serializers/override-mvc-jsonresult)
 
 ### [ServiceStack Example projects and Starter Templates]
 

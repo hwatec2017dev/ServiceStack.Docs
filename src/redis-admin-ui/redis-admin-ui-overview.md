@@ -1,21 +1,34 @@
-[Join the new google group](http://groups.google.com/group/servicestack) or
-follow [@demisbellot](http://twitter.com/demisbellot) and [@ServiceStack](http://twitter.com/servicestack)
-for twitter updates.
+# [Introducing Redis React](https://servicestack.net/redis-react)
 
-#ServiceStack Redis Web Services including the Redis Admin UI
-Included is a ServiceStack web service layer which provide JSON, XML, JSV and SOAP 1.1/1.2 for all of Redis operations.
-Just like the RedisAdminUI this allows you to fully manage your redis-server instance using javascript from a browser.
+Redis React is a simple user-friendly UI for browsing data in Redis servers that leverages the navigation and deep-linking 
+benefits of a Web-based UI, the productivity and responsiveness of the [React framework](http://facebook.github.io/react/) 
+and the deep Integration possible from a Native App.
 
-##Live Demo
-A live demo of the RedisAdminUI can be found here [http://mono.servicestack.net/RedisAdminUI/AjaxClient/](http://mono.servicestack.net/RedisAdminUI/AjaxClient/)
+### [Live Demo](http://redisreact.servicestack.net/#/)
 
-View the demos live list of the [available web services](http://www.servicestack.net/RedisAdminUI/servicestack/metadata).
+The Redis React App has been packaged for multiple platforms inc. the ASP.NET Live Demo 
+[redisreact.servicestack.net](http://redisreact.servicestack.net/#/) deployed on AWS which you can use to preview Redis React browsing a redis server populated with the 
+[Northwind Dataset](http://northwind.servicestack.net/) persisted as JSON following the
+[Complex Type Conventions](http://stackoverflow.com/a/8919931/85785) built into the 
+[C# ServiceStack.Redis Client](https://github.com/ServiceStack/ServiceStack.Redis).
 
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/redis-react/home.png)](http://redisreact.servicestack.net/#/)
 
-#Download
-[ServiceStack.RedisWebServices/downloads](https://github.com/ServiceStack/ServiceStack.RedisWebServices/downloads)
+### Downloads available from [Redis React Home Page](https://servicestack.net/redis-react)
 
-##Troubleshooting
-Note: if running via XSP you will want to change the 'DefaultRedirectPath' to:
+----
 
-    <add key="DefaultRedirectPath" value="AjaxClient/default.htm"/>
+## [Redis Admin UI](https://github.com/ServiceStackApps/RedisAdminUI)
+
+> Google Closure Admin UI and typed backend services API for redis-server operations
+
+[![](https://raw.githubusercontent.com/ServiceStack/Assets/master/img/livedemos/redisadminui.png)](http://redisadminui.servicestack.net)
+
+#### Features
+
+ - [Over 100+ Web Services](redisadminui.servicestack.net/redis/metadata)
+ - [ServiceStack.Redis C# Client](https://github.com/ServiceStack/ServiceStack.Redis)
+
+Try it out live at: [redisadminui.servicestack.net](http://redisadminui.servicestack.net)
+
+Follow [@ServiceStack](http://twitter.com) or [+ServiceStack](https://plus.google.com/u/0/communities/112445368900682590445) for updates.
