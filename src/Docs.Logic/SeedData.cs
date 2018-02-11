@@ -10,7 +10,7 @@ namespace Docs.Logic
             new Page("Overview", "https://github.com/ServiceStack/ServiceStack/blob/master/README.md", "ServiceStack", new[] { "Overview" }),
             new Page("Release Notes", "https://github.com/ServiceStack/ServiceStack/wiki/Release-Notes", "ServiceStack", new[] { "ReleaseNotes" }),
             new Page("NuGet", "https://github.com/ServiceStack/ServiceStack/wiki/NuGet", "ServiceStack", new[] { "NuGet" }),
-            new Page("JSON Report Format", "https://github.com/ServiceStack/ServiceStack/wiki/HTML5ReportFormat", "ServiceStack", new[] { "HTML5","Formats", "JsonReport" }),
+            new Page("HTML5 Report Format", "https://github.com/ServiceStack/ServiceStack/wiki/HTML5ReportFormat", "ServiceStack", new[] { "HTML5","Formats", "HTML5Report" }),
             new Page("Caching Options", "https://github.com/ServiceStack/ServiceStack/wiki/Caching", "ServiceStack", new[] { "Caching", "Redis", "Memcached" }),
             new Page("Accessing IHttpRequest", "https://github.com/ServiceStack/ServiceStack/wiki/Access-the-HTTP-Request-in-Web-Services", "ServiceStack", new[] { "API", "HTTP" }),
             new Page("JSV Format", "https://github.com/ServiceStack/ServiceStack.Text/wiki/JSV-Format", "ServiceStack", new[] { "JSV", "Text" }),

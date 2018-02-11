@@ -8,7 +8,7 @@ ServiceStack docs is a collection of all documentation found in the README.md an
   - [Release Notes](servicestack/release-notes)
   - [Wiki Home](servicestack/home)
   - [NuGet](servicestack/nuget)
-  - [JSON Report Format](servicestack/json-report-format)
+  - [HTML5 Report Format](servicestack/html5-report-format)
   - [The CSV Format](servicestack/csv-format)
   - [The JSV Format](servicestack/jsv-format)
   - [Caching Options](servicestack/caching-options)

@@ -134,7 +134,7 @@
     <None Include="servicestack\history-of-webservices.md" />
     <None Include="servicestack\csv-format.md" />
     <None Include="servicestack\home.md" />
-    <None Include="servicestack\json-report-format.md" />
+    <None Include="servicestack\html5-report-format.md" />
     <None Include="servicestack\nuget.md" />
     <None Include="servicestack\overview.md" />
     <None Include="servicestack\release-notes.md" />

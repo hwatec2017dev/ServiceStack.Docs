@@ -23,7 +23,7 @@ namespace Docs.Logic
 			this.ScopeArgs.TryGetValue("Category", out cat);
 			
 			if (page == null)
-				page = new Page { Category = cat != null ? cat.ToString() : "Framework" };
+				page = new Page { Category = cat != null ? cat.ToString() : "ServiceStack" };
 
 			if (!this.ScopeArgs.ContainsKey("Title"))
 				this.ScopeArgs.Add("Title", page.Name);

@@ -5,7 +5,7 @@ override MVC's JsonResult to use ServiceStack's JsonSerializer instead of the de
 JSON serializer shipped with ASP.NET MVC.
 
 Our benchmarks show ServiceStack's JsonSerializer 
-**[is over 3x faster than JSON.NET](http://www.servicestack.net/benchmarks/NorthwindDatabaseRowsSerialization.100000-times.2010-08-17.html)**
+**[is over 3x faster than JSON.NET](https://servicestack.netbenchmarks/NorthwindDatabaseRowsSerialization.100000-times.2010-08-17.html)**
 using Microsoft's sample real-world Northwind database whilst others are reporting similar success:
 
   - [JSON.NET vs ServiceStack](http://daniel.wertheim.se/2011/02/07/json-net-vs-servicestack/)

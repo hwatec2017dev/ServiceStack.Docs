@@ -6,7 +6,7 @@ The [CSV format](http://en.wikipedia.org/wiki/Comma-separated_values) is now a f
 CSV is an important format for transferring, migrating and quickly visualizing data as all spreadsheets support viewing and editing CSV files directly whilst its supported by most RDBMS support exporting and importing data. Compared with other serialization formats, it provides a compact and efficient way to transfer large datasets in an easy to read text format.
 
 ### Speed
-The CSV Serializer used was developed using the same tech that makes [ServiceStack's JSV and JSON serializers fast](http://www.servicestack.net/benchmarks/NorthwindDatabaseRowsSerialization.100000-times.2010-08-17.html) (i.e. no run-time reflection, static delegate caching, etc), which should make it the fastest CSV serializer available for .NET.
+The CSV Serializer used was developed using the same tech that makes [ServiceStack's JSV and JSON serializers fast](https://servicestack.netbenchmarks/NorthwindDatabaseRowsSerialization.100000-times.2010-08-17.html) (i.e. no run-time reflection, static delegate caching, etc), which should make it the fastest CSV serializer available for .NET.
 
 ### Downloadable Separately
 The CsvSerializer is maintained in the [ServiceStack.Text](~/text-serializers/json-csv-jsv-serializers) project and is available as a [separate download](https://github.com/ServiceStack/ServiceStack.Text/downloads) for use in your own .NET projects.
@@ -38,20 +38,20 @@ The ability to automatically to register another format and provide immediate va
 ## Usage
 The CSV format is effectively a first-class supported format so everything should work as expected, including being registered as an available format on ServiceStack's metadata index page:
 
-* [/servicestack/metadata](http://www.servicestack.net/ServiceStack.MovieRest/servicestack/metadata)
+* [/servicestack/metadata](https://servicestack.netServiceStack.MovieRest/servicestack/metadata)
 
 And being able to preview the output of a service:
 
-* [/servicestack/csv/metadata?op=Movie](http://www.servicestack.net/ServiceStack.MovieRest/servicestack/csv/metadata?op=Movie)
+* [/servicestack/csv/metadata?op=Movie](https://servicestack.netServiceStack.MovieRest/servicestack/csv/metadata?op=Movie)
 
 By default they are automatically available using ServiceStack's standard calling conventions, e.g:
 
-* [/csv/syncreply/Movies](http://www.servicestack.net/ServiceStack.MovieRest/csv/syncreply/Movies)
+* [/csv/syncreply/Movies](https://servicestack.netServiceStack.MovieRest/csv/syncreply/Movies)
     
 ### REST Usage
 CSV also works just as you would expect with user-defined RESTful urls, i.e. you can append ?format=csv to specify the format in the url e.g:
 
-* [/movies?format=csv](http://www.servicestack.net/ServiceStack.MovieRest/movies?format=csv)
+* [/movies?format=csv](https://servicestack.netServiceStack.MovieRest/movies?format=csv)
 
 This is how the above web service output looks when opened up in [google docs](https://spreadsheets.google.com/pub?key=0AjnFdBrbn8_fdDBwX0Rha04wSTNWZDZlQXctcmp2bVE&hl=en_GB&output=html)
 
@@ -76,9 +76,9 @@ Basically if you only return 1 result it should work as expected otherwise it wi
 The second major limitation is that it doesn't yet include a CSV deserializer (currently on the TODO list), so while you can view the results in CSV format you can't post data to your web service in CSV and have it automatically deserialize for you. You can however still upload a CSV file and parse it manually yourself.
 
 #Features
-Unlike most CSV serializers that can only serialize rows of primitive values, the CsvSeriliaizer uses the [JSV Format](~/text-serializers/jsv-format) under the hood so even [complex types](https://spreadsheets.google.com/pub?key=0AjnFdBrbn8_fdG83eWdGM1lnVW9PMlplcmVDYWtXeVE&hl=en_GB&output=html) will be serialized in fields in a easy to read format - no matter how deep its hierarchy.
+Unlike most CSV serializers that can only serialize rows of primitive values, the CsvSeriliaizer uses the [JSV Format](/text-serializers/jsv-format) under the hood so even [complex types](https://spreadsheets.google.com/pub?key=0AjnFdBrbn8_fdG83eWdGM1lnVW9PMlplcmVDYWtXeVE&hl=en_GB&output=html) will be serialized in fields in a easy to read format - no matter how deep its hierarchy.
 
 
 Feel free to discuss or find more about any of these features at the [Service Stack Google Group](https://groups.google.com/forum/#!forum/servicestack)
 
-[<Wiki Home](~/framework/home)
+[<Wiki Home](/servicestack/home)

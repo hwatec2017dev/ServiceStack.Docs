@@ -66,4 +66,4 @@ _([IHttpRequest](https://github.com/ServiceStack/ServiceStack/blob/master/src/Se
         });
 
 
-[<Wiki Home](~/framework/home)
+[<Wiki Home](/servicestack/home)

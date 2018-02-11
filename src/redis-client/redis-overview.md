@@ -7,7 +7,7 @@ Included as part of ServiceStack is:
 
 * [IRedisNativeClient](~/redis-client/iredisnativeclient-api) -A low-level API that provides raw byte access to a Redis server. Each method maps to 1:1 to a Redis operation of the same name.
 * **[IRedisClient](~/redis-client/iredisclient-api)** - A friendly, more descriptive API implemented by the ServiceStack.Redis client that provides access to key values as strings (or collection of strings for Redis lists and sets).
-* **[IRedisTypedClient](~/redis-client/iredistypedclient-api)** - A high-level 'strongly-typed' API available on Service Stack's C# Redis Client to make all Redis Value operations to apply against any c# type. Where all complex types are transparently serialized to JSON using [ServiceStack JsonSerializer](~/text-serializers/json-csv-jsv-serializers) - [The fastest JSON Serializer for .NET](http://www.servicestack.net/mythz_blog/?p=344).
+* **[IRedisTypedClient](~/redis-client/iredistypedclient-api)** - A high-level 'strongly-typed' API available on Service Stack's C# Redis Client to make all Redis Value operations to apply against any c# type. Where all complex types are transparently serialized to JSON using [ServiceStack JsonSerializer](~/text-serializers/json-csv-jsv-serializers) - [The fastest JSON Serializer for .NET](https://servicestack.netmythz_blog/?p=344).
 * Thread-safe `BasicRedisClientManager` and `PooledRedisClientManager` connection pooling implementations which plugs nicely in your local IOC and is useful when talking to Redis inside an ASP.NET application or Windows Service.
 
 # Download
@@ -28,13 +28,13 @@ If you are new to Redis (or NoSQL in general) I recommend the following resource
 
 Spawned from deep within the fires of Unix, for the longest time the only interface access to your Redis DataStore was through the highly-functional but still command-line only **redis-cli** command line utility.
 
-Also developed in conjunction with the C# Redis Client, to help with visualizing your data in Redis is the [Redis Admin UI](http://www.servicestack.net/mythz_blog/?p=381). It was specifically designed to take advantages of the conventions of the C# Redis Client to provide a fast, functional view into your data. Like all of ServiceStack it runs on .NET and Mono with the [public demo hosted on CentOS/Nginx/Mono](http://www.servicestack.net/RedisAdminUI/AjaxClient/).
+Also developed in conjunction with the C# Redis Client, to help with visualizing your data in Redis is the [Redis Admin UI](https://servicestack.netmythz_blog/?p=381). It was specifically designed to take advantages of the conventions of the C# Redis Client to provide a fast, functional view into your data. Like all of ServiceStack it runs on .NET and Mono with the [public demo hosted on CentOS/Nginx/Mono](https://servicestack.netRedisAdminUI/AjaxClient/).
 
 The download and source code for the Redis Admin UI is maintained in the [ServiceStack.RedisWebServices project](~/redis-admin-ui/redis-admin-ui-overview).
 
 ## Ajax Web Services for Redis
 
-The Redis Admin UI is actually a pure Ajax web application (i.e. a pure static JavaScript file). In order to be able to develop an Ajax application that talks to Redis (which is a highly optimized, binary-safe tcp protocol) we must make the Redis operations available via Ajax Web Services. Which happens to be exactly what the [ServiceStack.RedisWebServices](~/redis-admin-ui/redis-admin-ui-overview) does. It takes advantage of ServiceStack to provide XML, JSON, JSV, SOAP 1.1/1.2 for all of Redis operations. A [list of all the operations available](http://www.servicestack.net/RedisAdminUI/Public/Metadata) can be seen on the public demo.
+The Redis Admin UI is actually a pure Ajax web application (i.e. a pure static JavaScript file). In order to be able to develop an Ajax application that talks to Redis (which is a highly optimized, binary-safe tcp protocol) we must make the Redis operations available via Ajax Web Services. Which happens to be exactly what the [ServiceStack.RedisWebServices](~/redis-admin-ui/redis-admin-ui-overview) does. It takes advantage of ServiceStack to provide XML, JSON, JSV, SOAP 1.1/1.2 for all of Redis operations. A [list of all the operations available](https://servicestack.netRedisAdminUI/Public/Metadata) can be seen on the public demo.
 
 Effectively [ServiceStack.RedisWebServices](~/redis-admin-ui/redis-admin-ui-overview) gives Redis CouchDB-like powers where the Ajax Web Services layer allows websites to talk directly to Redis without any custom middle-tier just like the Redis Admin UI :)
 

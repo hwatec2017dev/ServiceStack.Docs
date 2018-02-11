@@ -5,13 +5,13 @@ This version adds support for the recently released [Redis v2.0](http://code.goo
 This release also fixes a major performance issue with the older clients so it is now a recommended upgrade for all older clients which ideally should coincide with an upgrade to  redis-server v2.0.
 
 ## Warning: Breaking API Changes
-Unfortunately during development of [Redis Web Services](http://www.servicestack.net/RedisWebServices.Host/Public/Metadata) I became aware that the nomenclature 
+Unfortunately during development of [Redis Web Services](https://servicestack.netRedisWebServices.Host/Public/Metadata) I became aware that the nomenclature 
 of the descriptive API found in the [IRedisClient] and [IRedisTypedClient] were sometimes in-consistent. Normally when making changes to published API's I would 
 continue to deprecate and support the older API's unfortunately since there was _so many_ changes supporting both API's would've made it more confusing so I've 
 taken the opportunity with the release of redis-server v2.0 to start with a fresh slate, though I will continue to make available the older version (v1.20) of the client below.
 
 ### The new terminology used in the new API
-The wording in the new [IRedisClient] and [RedisWebService](http://www.servicestack.net/RedisWebServices.Host/Public/Metadata) API's:
+The wording in the new [IRedisClient] and [RedisWebService](https://servicestack.netRedisWebServices.Host/Public/Metadata) API's:
   * For write operations I specify to *what* I'm adding an as well as *where* I'm adding it to: 
      * e.g. `AddItemToList` as opposed to `AddToList`.
   * For read operations I specify *what* I'm getting and *where* I'm getting it from 

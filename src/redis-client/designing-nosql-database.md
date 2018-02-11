@@ -76,7 +76,7 @@ With only a running redis-server instance running and the C# client, the full so
 	]
 	 */
 
-_Note: [You can also use the generic T.Dump() Extension method yourself](http://www.servicestack.net/mythz_blog/?p=202)._
+_Note: [You can also use the generic T.Dump() Extension method yourself](https://servicestack.netmythz_blog/?p=202)._
 
 Ayende has outlined a few scenarios that the Blog application should support. 
 
@@ -100,7 +100,7 @@ In identifying my entities I have a general preference for 'automated ids' which
 sequential integer ids or Guids - if the entities are going to be distributed across multiple data stores.
 
 Apart from that persisting an object is just a straight forward process of serializing the object graph into a text-serialization format.
-By default, the Redis Client uses [Service Stack's JsonSerializer](http://www.servicestack.net/mythz_blog/?p=344) as it's the fastest and JSON Serializer for .NET.
+By default, the Redis Client uses [Service Stack's JsonSerializer](https://servicestack.netmythz_blog/?p=344) as it's the fastest and JSON Serializer for .NET.
 
 	//Retrieve strongly-typed Redis clients that let's you natively persist POCO's
 	using (var redisUsers = redisClient.GetTypedClient<User>())

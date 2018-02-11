@@ -1,4 +1,4 @@
-Follow [@ServiceStack](https://twitter.com/servicestack) or join the [Google+ Community](https://plus.google.com/communities/112445368900682590445)
+Follow [&#64;ServiceStack](https://twitter.com/servicestack) or join the [Google+ Community](https://plus.google.com/communities/112445368900682590445)
 for updates, or [StackOverflow](http://stackoverflow.com/questions/ask) or the [Customer Forums](https://forums.servicestack.net/) for support.
 
 # C#/.NET Client for Redis
@@ -761,7 +761,7 @@ Each client provides a different layer of abstraction:
   
   * The RedisNativeClient exposes raw **byte[]** apis and does no marshalling and passes all values directly to redis.
   * The RedisClient assumes **string** values and simply converts strings to UTF8 bytes before sending to Redis
-  * The RedisTypedClient provides a generic interface allowing you to add POCO values. The POCO types are serialized using [.NETs fastest JSON Serializer](http://www.servicestack.net/mythz_blog/?p=344) which is then converted to UTF8 bytes and sent to Redis.
+  * The RedisTypedClient provides a generic interface allowing you to add POCO values. The POCO types are serialized using [.NETs fastest JSON Serializer](https://servicestack.netmythz_blog/?p=344) which is then converted to UTF8 bytes and sent to Redis.
 
 ### Redis Client API Overview
 [![Redis Client API](http://mono.servicestack.net/img/Redis-annotated-preview.png)](http://mono.servicestack.net/img/Redis-annotated.png)

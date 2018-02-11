@@ -1,4 +1,4 @@
-Follow [@ServiceStack](https://twitter.com/servicestack) or join the [Google+ Community](https://plus.google.com/communities/112445368900682590445)
+Follow [&#64;ServiceStack](https://twitter.com/servicestack) or join the [Google+ Community](https://plus.google.com/communities/112445368900682590445)
 for updates, or [StackOverflow](http://stackoverflow.com/questions/ask) or the [Customer Forums](https://forums.servicestack.net/) for support.
 
 ## FREE high-perf Text Serializers and Core Utils powering [servicestack.net](https://servicestack.net)
@@ -710,7 +710,7 @@ A value with a double-quote is escaped with another double quote e.g:
 ## Rich support for resilience and schema versioning
 To better illustrate the resilience of `TypeSerializer` and the JSV Format check out a real world example of it when it's used to [Painlessly migrate between old and new types in Redis](https://github.com/ServiceStack/ServiceStack.Redis/wiki/MigrationsUsingSchemalessNoSql). 
 
-Support for dynamic payloads and late-bound objects is explained in the post [Versatility of JSV Late-bound objects](http://www.servicestack.net/mythz_blog/?p=314).
+Support for dynamic payloads and late-bound objects is explained in the post [Versatility of JSV Late-bound objects](https://servicestack.netmythz_blog/?p=314).
 
 
 # Community Resources

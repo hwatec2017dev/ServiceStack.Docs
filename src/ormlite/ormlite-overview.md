@@ -1,4 +1,4 @@
-Follow [@ServiceStack](https://twitter.com/servicestack) or join the [Google+ Community](https://plus.google.com/communities/112445368900682590445)
+Follow [&#64;ServiceStack](https://twitter.com/servicestack) or join the [Google+ Community](https://plus.google.com/communities/112445368900682590445)
 for updates, or [StackOverflow](http://stackoverflow.com/questions/ask) or the [Customer Forums](https://forums.servicestack.net/) for support.
 
 # Fast, Simple, Typed ORM for .NET
@@ -2167,7 +2167,7 @@ using (IDbConnection db = Config.OpenDbConnection())
 
 Running this against a SQL Server database will yield the results below:
 
-[![SQL Server Management Studio results](http://mono.servicestack.net/files/ormlite-example.png)](http://www.servicestack.net/files/ormlite-example.png)
+[![SQL Server Management Studio results](http://mono.servicestack.net/files/ormlite-example.png)](https://servicestack.netfiles/ormlite-example.png)
 
 Notice the POCO types are stored in the [very fast](http://mono.servicestack.net/mythz_blog/?p=176) 
 and [Versatile](http://mono.servicestack.net/mythz_blog/?p=314) 

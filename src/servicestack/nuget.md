@@ -20,10 +20,10 @@ Although we believe this to be a popular starting point, it is not the only one 
 
 Downloadable separately from ServiceStack itself is it's string powers. Inside [ServiceStack.Text](~/text-serializers/json-csv-jsv-serializers) are some of .NET's fastest Text Serializers:
 
-* [JsonSerializer](http://www.servicestack.net/mythz_blog/?p=344)
+* [JsonSerializer](https://servicestack.netmythz_blog/?p=344)
 * [TypeSerializer (JSV-Format)](~/text-serializers/jsv-format)
 * CsvSerializer
-* [T.Dump extension method](http://www.servicestack.net/mythz_blog/?p=202)
+* [T.Dump extension method](https://servicestack.netmythz_blog/?p=202)
 * StringExtensions - Xml/Json/Csv/Url encoding, BaseConvert, Rot13, Hex escape, etc.
 * Stream, Reflection, List, DateTime, etc extensions and utils
 

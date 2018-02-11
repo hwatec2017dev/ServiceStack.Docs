@@ -1,7 +1,7 @@
-Follow [@ServiceStack](https://twitter.com/servicestack) or join the [Google+ Community](https://plus.google.com/communities/112445368900682590445)
+Follow [&#64;ServiceStack](https://twitter.com/servicestack) or join the [Google+ Community](https://plus.google.com/communities/112445368900682590445)
 for updates, or [StackOverflow](http://stackoverflow.com/questions/ask) or the [Customer Forums](https://forums.servicestack.net/) for support.
 
-> View the [Release Notes](https://servicestack.net/release-notes) for latest features or see [servicestack.net/features](https://servicestack.net/features) for an overview.
+> View the [Release Notes](http://docs.servicestack.net/releases/) for latest features or see [features](https://servicestack.net/features) for an overview.
 
 ### Simple, Fast, Versatile and full-featured Services Framework
 
@@ -370,7 +370,7 @@ Each library is released under its respective licence:
 
 ## Find out More
 
-Follow [@ServiceStack](https://twitter.com/ServiceStack) and 
+Follow [&#64;ServiceStack](https://twitter.com/ServiceStack) and 
 [+ServiceStack](https://plus.google.com/u/0/communities/112445368900682590445) for project updates.
 
 -----

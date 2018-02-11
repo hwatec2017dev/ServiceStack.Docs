@@ -81,4 +81,4 @@ Which are simply existing web services wrapped using **ICacheClient** that are c
 	}
 
 
-[<Wiki Home](~/framework/home)
+[<Wiki Home](/servicestack/home)

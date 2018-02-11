@@ -1,8 +1,8 @@
 [Join the new google group](http://groups.google.com/group/servicestack) or
-follow [@demisbellot](http://twitter.com/demisbellot) and [@ServiceStack](http://twitter.com/servicestack)
+follow [&#64;demisbellot](http://twitter.com/demisbellot) and [&#64;ServiceStack](http://twitter.com/servicestack)
 for twitter updates. 
 
-#Example Projects built with [ServiceStack](~/framework/overview), [C# RedisClient](~/redis-client/redis-client), [OrmLite](~/ormlite/ormlite-overview), etc
+#Example Projects built with [ServiceStack](/servicestack/overview), [C# RedisClient](/redis-client/redis-client), [OrmLite](/ormlite/ormlite-overview), etc
 
 ## Live Demo
 
@@ -27,7 +27,7 @@ A live demo and tutorials are available at the following locations:
 [![Ajax Example](http://mono.servicestack.net/showcase/img/ajaxexample-400x350.png)](http://mono.servicestack.net/ServiceStack.Examples.Clients/)
 
 ### Other examples
-* [Calling Web Services with Mono Touch](http://www.servicestack.net/monotouch/remote-info/)
+* [Calling Web Services with Mono Touch](https://servicestack.netmonotouch/remote-info/)
 * [Calling Web Services using Silverlight](http://mono.servicestack.net/ServiceStack.Examples.Clients/Silverlight.htm)
 * [Calling SOAP 1.1 Web Service Examples](http://mono.servicestack.net/ServiceStack.Examples.Clients/Soap11.aspx)
 * [Calling SOAP 1.2 Web Service Examples](http://mono.servicestack.net/ServiceStack.Examples.Clients/Soap12.aspx)

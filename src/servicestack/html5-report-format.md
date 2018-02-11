@@ -1,6 +1,6 @@
 #New JavaScript HTML5 Report Format
  
-##New HTML5 + JSON Report Format - [Released in 1.82](~/framework/release-notes)
+##New HTML5 + JSON Report Format - [Released in 1.82](/servicestack/release-notes)
 
 These examples are simply links to existing ServiceStack web services, which based on your browsers user-agent (i.e. Accept: 'text/html') provides this HTML format instead of the other serialization formats. 
 
@@ -36,7 +36,7 @@ The report also includes an interface to allow humans to copy it from a textbox.
   
 ### It's Fast
 Like the other web services, the HTML format is just a raw C# IHttpHandler using 
-[.NET's fastest JSON Serializer](http://www.servicestack.net/mythz_blog/?p=344) 
+[.NET's fastest JSON Serializer](https://servicestack.netmythz_blog/?p=344) 
 to serialize the response DTO to a JSON string which is embedded inside a **static HTML string template**. 
 No other .aspx page or MVC web framework is used to get in the way to slow things down.
 High performance JavaScript techniques are also used to start generating the report at the earliest possible time.
@@ -76,8 +76,8 @@ Being able to generically provide new features like this shows the advantage of 
  
 Out of the box REST, RPC and SOAP endpoints types are automatically provided, in JSON, XML, CSV, JSV and now the new HTML report format above.
 
-Follow [@demisbellot](http://twitter.com/demisbellot) and [@ServiceStack](http://twitter.com/ServiceStack) for twitter updates
+Follow [&#64;demisbellot](http://twitter.com/demisbellot) and [&#64;ServiceStack](http://twitter.com/ServiceStack) for twitter updates
 
 
 
-[<Wiki Home](~/framework/home)
+[<Wiki Home](/servicestack/home)

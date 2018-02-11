@@ -26,9 +26,9 @@ The Redis React App has been packaged for multiple platforms inc. the ASP.NET Li
 
 #### Features
 
- - [Over 100+ Web Services](redisadminui.servicestack.net/redis/metadata)
+ - [Over 100+ Web Services](http://redisadminui.servicestack.net/redis/metadata)
  - [ServiceStack.Redis C# Client](https://github.com/ServiceStack/ServiceStack.Redis)
 
 Try it out live at: [redisadminui.servicestack.net](http://redisadminui.servicestack.net)
 
-Follow [@ServiceStack](http://twitter.com) or [+ServiceStack](https://plus.google.com/u/0/communities/112445368900682590445) for updates.
+Follow [&#64;ServiceStack](http://twitter.com) or [+ServiceStack](https://plus.google.com/u/0/communities/112445368900682590445) for updates.
